@@ -113,3 +113,46 @@
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
 }
+/* heading */
+.heading h1{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+  margin: 0% 30% 0% 30%;
+  padding: 28px 40px 40px 40px;
+  transition: all 0.3s linear;
+}
+ .heading h1:hover{
+    cursor: pointer;
+    text-decoration: white 2px underline;
+    text-shadow: rgb(255, 183, 0) 10px 0 15px;
+    font-size:62px ;
+}
+.now i{
+    padding: 10px;
+}
+.now{
+color:white;
+position: absolute;
+left: 48%;
+bottom: 48px;
+border: 0.0001rem solid;
+display: flex;
+flex-direction: row;
+line-height: 50px;
+padding: 5px 20px;
+transition: all 0.3s linear;
+opacity: 0.5;
+}
+.now:hover{
+    border-color: grey;
+    cursor: pointer;
+    text-decoration: white 2px underline;
+    opacity: 1;
+    text-shadow: grey 10px 0 15px;
+    border: 0.001rem solid;
+    font-size: 18px;
+}
