@@ -6,3 +6,9 @@
         font-weight: 400;
         font-style: normal;
 }
+/* styling main-box */
+.main_box{
+    background-image: url("image.jpeg");
+    height: 100vh; /* gives 100% of viewport height*/
+    background-size:cover;
+}
