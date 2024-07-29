@@ -119,17 +119,18 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 60px;
+  font-size: 48px;
   color: white;
+  letter-spacing: 1px;
   margin: 0% 30% 0% 30%;
-  padding: 28px 40px 40px 40px;
+  padding: 28px 0px 40px 0px;
   transition: all 0.3s linear;
 }
  .heading h1:hover{
     cursor: pointer;
     text-decoration: white 2px underline;
     text-shadow: rgb(255, 183, 0) 10px 0 15px;
-    font-size:62px ;
+    font-size:49px ;
 }
 .now i{
     padding: 10px;
