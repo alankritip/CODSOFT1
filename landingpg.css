@@ -76,3 +76,14 @@
 .sidebar_menu .menu i{
     padding-right: 8px;
 }
+/* styling social media */
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0px 5px;
+}
